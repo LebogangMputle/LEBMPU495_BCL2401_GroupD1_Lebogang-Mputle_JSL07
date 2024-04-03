@@ -28,10 +28,12 @@ document.addEventListener('DOMContentLoaded', function () {
       // 🚨 Generate certificate content dynamically
       //if the inputs are valid, it will dynamically generate HTML content based on the input values and insert content into "certificateContent"
       certificateContent.innerHTML = `                  
-          <h2>${studentName}</h2>
-          <p>Course Name: ${courseName}</p>
-          <p>Personalized Message: ${personalMessage}</p>
-      `;
+      <h2>${studentName}</h2>
+      <p>Course Name: ${courseName}</p>
+      <p>Message: ${personalMessage}</p>
+      <img src="./logo.png" style="padding:30px; height:100px" alt="Certificate Image">
+  `;
+
 
       //  Display the modal
       modal.style.display = 'block';    //set to block to making it visible and overlaying it on the page.
