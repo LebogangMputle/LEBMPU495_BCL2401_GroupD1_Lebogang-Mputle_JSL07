@@ -48,4 +48,5 @@ document.addEventListener('DOMContentLoaded', function () {
   closeModal.addEventListener('click', function () {
       modal.style.display = 'none';
   });
+  closeModal.style.cursor = 'pointer';
 });

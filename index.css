@@ -96,7 +96,7 @@ color: #5d5f5e;
 
 .close {
 color: #dc7f5f;
-cursor: pointer;
+/* cursor: pointer; */
 }
 
 /* Adding a fancy border to the certificate content */
